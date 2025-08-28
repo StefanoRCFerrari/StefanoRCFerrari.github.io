@@ -6,6 +6,7 @@ body {
     float: right;
     margin-right: 20px;
     margin-left: 50px;
+    width: 20%;
 }
 
 .thumb {
@@ -26,7 +27,7 @@ body h1 {
     color: rgb(255, 254, 205);
     text-shadow: 1px 1px rgb(190, 211, 0);
     background-color: rgb(20, 66, 5);
-    width: 900px;
+    width: 40%;
 
 }
 
@@ -48,7 +49,7 @@ body article {
     color: rgb(255, 254, 205);
     font-size: 20px;
     text-shadow: 1px 1px rgb(190, 211, 0);
-    width: 1050px;
+    width: 50%;
     border: 1px solid rgb(190, 211, 0);
     border-radius: 30px;
     padding: 15px;
