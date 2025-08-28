@@ -39,6 +39,7 @@ body h1 {
     color: rgb(255, 254, 205);
     text-shadow: 1px 1px rgb(190, 211, 0);
     margin-bottom: 0px;
+    width: 30%;
 }
 
 body article {
@@ -65,8 +66,9 @@ body p a {
 .menu {
     list-style-type: none;
     float: right;
-    margin-right: 25px;
-    margin-top: -40px;
+    margin-right: -1%;
+    margin-top: -2.5%;
+    width: 50%;
 }
 
 .menu li {
