@@ -7,7 +7,7 @@ body {
     margin-right: 1%;
     margin-left: 2,5%;
     max-width: 20%;
-    min-width 5%;
+    min-width: 5%;
 }
 
 .thumb {
@@ -28,18 +28,8 @@ body h1 {
     color: rgb(255, 254, 205);
     text-shadow: 1px 1px rgb(190, 211, 0);
     background-color: rgb(20, 66, 5);
-    width: 40%;
+    max-width: 40%;
 
-}
-
-.crumbs{
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    color: rgb(255, 254, 205);
-    text-shadow: 1px 1px rgb(190, 211, 0);
-    margin-bottom: 0px;
-    width: 30%;
 }
 
 body article {
@@ -63,10 +53,20 @@ body p a {
     text-decoration: none;
 }
 
+.crumbs{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(255, 254, 205);
+    text-shadow: 1px 1px rgb(190, 211, 0);
+    margin-bottom: 0px;
+    max-width: 28%;
+}
+
 .menu {
     list-style-type: none;
     float: right;
-    margin-right: -1%;
+    margin-right: -0.5%;
     margin-top: -2.5%;
     width: 50%;
 }
