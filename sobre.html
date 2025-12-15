@@ -1,33 +1,61 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="Stylesheet" href="estilo1.css">
-        <meta charset="utf-8">
-        <meta lang="pt-br">
-        <title>Sobre Stéfano</title>
-        <meta name="description" content="Página pessoal do aspirante a desenvolvedor, Stéfano 'Egg' Ferrari.">
-    </head>
-    <body>
-        <img src="imgs/thumb.jpg" class="thumb"><p class="crumbs">Landing Page de Stéfano Ferrari -> Sobre Mim</p>
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="sobre.html">Sobre Mim</a></li>
-                <li><a href="profissional.html">Trajetória Profissional</a></li>
-                <li><a href="academico.html">Acadêmico</a></li>
-                <li><a href="hobbies.html">Hobbies</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-            </ul>
-        </nav>
-        <br>
-        <header><h1>Sobre Mim</h1></header>
-        <br>
-        <img class="mainpic" src="imgs/perfil.jfif" alt="Foto de perfil de Stéfano Ferrari">
-        <article>
-            <p>Nascido em Campinas no ano de 1992, desde cedo gosto de RPGs (tanto de mesa quanto eletrônicos), música, TCGs (Trading Card Games), entre outros hobbies geek que você pode conferir na página de <a href="hobbies.html">hobbies</a>.</p>
-            <br>
-            <p>Já toquei guitarra, treinei diversas artes marciais, gosto de comidas apimentadas, de cerveja e durmo até demais.</p>
-        </article>
-    </body>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sobre Mim - Stéfano "Egg" Ferrari</title>
+    <meta name="description" content="Informações sobre a vida pessoal de Stéfano 'Egg' Ferrari.">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo1.css"> 
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="imgs/thumb.jpg" alt="Thumbnail" style="max-height: 40px;" class="me-2">
+                <p class="crumbs mb-0">Stéfano Ferrari -> Sobre Mim</p>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Página Inicial</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="sobre.html">Sobre Mim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profissional.html">Profissional</a></li>
+                    <li class="nav-item"><a class="nav-link" href="academico.html">Acadêmico</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projetos.html">Projetos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container my-5">
+        
+        <header class="text-center mb-4">
+            <h1 class="display-5">Mais sobre Stéfano "Egg" Ferrari</h1>
+        </header>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="card p-4">
+                    <article style="color: white;">
+                        <p>Nascido em Campinas no ano de 1992, desde cedo gosto de RPGs (tanto de mesa quanto eletrônicos), música, TCGs (Trading Card Games), entre outros hobbies geek que você pode conferir na página de <a href="hobbies.html">hobbies</a>.</p>
+                        <br>
+                        <p>Já toquei guitarra, treinei diversas artes marciais, gosto de comidas apimentadas, de cerveja e durmo até demais.</p>
+                        
+                    </article>
+                </div>
+            </div>
+        </div>
+        
+    </div> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
